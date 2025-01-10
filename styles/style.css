@@ -182,13 +182,19 @@ body{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    
 }
 .comment-margin{
-    margin: 48px 24px;
+   /* margin-top: 48px;  */
+}
+.bg-image{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    margin: 36px 24px 48px 24px;
 }
 .comment{
-    margin-bottom: 12px;
+    padding: 12px 0;
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 16px;
