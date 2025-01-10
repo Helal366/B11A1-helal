@@ -4,16 +4,23 @@
     margin: 0;
     padding: 0;
 }
-.banner-section{
+body{
+    background-color: #F5F5F5;
+}
+
+/* BANNER SECTION */
+.banner-section, .vision-section{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.banner-section{
     margin-bottom: 80px;
 }
 .banner{
     border-radius: 24px;
     background: rgb(198, 228, 214);
-    /* width: 90%; */
+    width: 82%;
     margin-top: 100px;
     display: flex;
     gap: 64px;
@@ -68,5 +75,95 @@
     background-color: blueviolet;
     color: lightgoldenrodyellow;
     cursor: pointer
+}
+
+/* VISION OF FUTURE SECTION */
+.vision-section{
+    margin-bottom: 32px;;
+}
+.vision{
+    width: 82%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+}
+.head-part> .title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.head-part> .description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.card-container{
+    display: flex;
+    gap: 24px;
+}
+
+.card-01{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+.card-02{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+.card-03{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+.card-image-container, .card-title, .card-description, .card-btn-container{
+    margin-top: 33px;
+    margin-left: 33px;
+    margin-bottom: 25px;
+}
+.card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.card-btn{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 20px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    border: none;
+    margin-bottom: 32px;
 }
 
