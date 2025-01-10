@@ -9,7 +9,7 @@ body{
 }
 
 /* BANNER SECTION */
-.banner-section, .vision-section, .comment-section{
+.banner-section, .vision-section, .comment-section, .news-section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +83,6 @@ body{
 }
 .vision{
     width: 82%;
-    /* background-color: white; */
     display: flex;
     flex-direction: column;
 }
@@ -132,6 +131,8 @@ body{
     margin-left: 33px;
     margin-bottom: 25px;
 }
+.card-image-container{
+    padding-top: 33px;}
 .card-title{
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
@@ -185,9 +186,7 @@ body{
     background-color: rgb(255, 255, 255);
     
 }
-.comment-margin{
-   /* margin-top: 48px;  */
-}
+
 .bg-image{
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
@@ -221,4 +220,122 @@ body{
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+/* RECENT NEWS SECTION */
+
+.news-container{
+    width: 82%;
+    /* background-color: white; */
+}
+.news-heading-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.news-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.news-card{
+    display:flex;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    gap: 32px;
+    margin-bottom: 24px;
+}
+
+.news-card-left{
+    width: 32%;
+    margin:48px 0px 48px 48px;
+}
+.news-card-left>img{
+    border-radius: 24px;
+}
+.news-card-right{
+    margin: 48px 48px 48px 0px;
+}
+.news-card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.news-card-subtitle{
+    margin-bottom: 12px;
+    height: 40px;
+}
+.news-card-subtitle>img{
+    height: 40px;
+}
+.news-card-datetime{
+    margin-bottom: 12px;;
+}
+.news-card-datetime .date{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 12px;
+}
+.news-card-datetime .time{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.news-card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.news-card-btn{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 13px 26px 13px 26px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+}
+.news-card-btn:hover{
+    color: black;
+    background-color: rgb(124, 219, 206);
+}
+.reverse{
+    margin: 48px 0px 48px 48px;
+}
+.reverse2{
+    margin: 48px 48px 48px 0px;;
 }
