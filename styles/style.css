@@ -477,6 +477,10 @@ body{
     background: rgb(0, 106, 80);
     margin-bottom: 8px;
 }
+.done-btn:hover{
+    color:rgb(0, 106, 80);
+    background-color: rgb(216, 187, 150);
+}
 
 /* SUBSCRIBE NEWSLETTER SECTION */
 
@@ -522,7 +526,7 @@ body{
     margin-right: 0px;
     width: 600px;
     border: none;
-    flex: 1:
+    flex: 1;
 }
 .subscribe-btn{
     width: 150px;
